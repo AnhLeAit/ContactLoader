@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="view_padding_thin">2dp</dimen>
+    <dimen name="view_padding_small">4dp</dimen>
+    <dimen name="view_padding_normal">8dp</dimen>
+    <dimen name="view_padding_big">12dp</dimen>
+    <dimen name="view_padding_larger">24dp</dimen>
+
+    <dimen name="actionbar_height">56dp</dimen>
+    <dimen name="avatar_size_normal">48dp</dimen>
+    <dimen name="avatar_size_small">34dp</dimen>
+    <dimen name="contact_item_height">64dp</dimen>
+    <dimen name="button_corner_radius">3dp</dimen>
+    <dimen name="recycler_section_header_height">24dp</dimen>
+</resources>

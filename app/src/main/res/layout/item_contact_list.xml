@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorWhite"
+    android:layout_height="@dimen/contact_item_height"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/item_contact_list_cb_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/view_padding_normal"
+        android:paddingLeft="@dimen/view_padding_small"
+        android:buttonTint="@color/colorAccent"/>
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/item_contact_list_riv_avatar"
+        android:layout_width="@dimen/avatar_size_normal"
+        android:layout_height="@dimen/avatar_size_normal"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/item_contact_list_cb_select"
+        android:src="@mipmap/ic_default_avatar"
+        app:riv_border_color="@color/circle_image_border_color"
+        app:riv_border_width="0.5dp"
+        app:riv_oval="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/view_padding_normal"
+        android:layout_marginRight="@dimen/view_padding_normal"
+        android:layout_toRightOf="@+id/item_contact_list_riv_avatar"
+        android:orientation="vertical"
+        android:padding="@dimen/view_padding_normal">
+
+        <TextView
+            android:id="@+id/item_contact_list_tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingBottom="@dimen/view_padding_normal"
+            android:text="Name"
+            android:textColor="@color/darkTextColor"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/item_contact_list_tv_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="0123456789"
+            android:textColor="@color/textHintColor"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

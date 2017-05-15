@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Contact Loader</string>
+    <string name="btn_done">Done</string>
+    <string name="title_select_contacts">Select Contacts</string>
+    <string name="activity_contact_tv_to_label">To:</string>
+    <string name="activity_contact_tv_to_no_result">No Result!</string>
+    <string name="activity_contact_et_search_contacts_hint">Search...</string>
+    <string name="guide_contact_selected_here">Contact selected will be showing right here!</string>
+</resources>
