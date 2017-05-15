@@ -14,7 +14,9 @@ The offline app for showing essential Android Skill that reading device's contac
 **- Gson:** convert object Parcelable.
 
 **- RecyclerView:** create FlexibleWidthRecyclerView for selected contact & Sticky header for Device's Contact list.
+
 **- Contact:** Reading the contact DB for special requirement.
+
 **- SortedList:** Make every item always in order.
 
 
